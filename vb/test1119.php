@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <head>
     <title>jsとphp</title>
+    <script type="text/javascript" src="script.js"></script>
 </head>
 <body>
     <script>
@@ -12,6 +13,8 @@
         //ここがphp
         echo "hello php<br>";
     ?>
+
+    <div id="sayhello">Hello</div>
 
     <table border="1">
         <tr>
@@ -35,5 +38,9 @@
             <td>C3</td>
         </tr>
     </table>
+
+    <script>
+        onclickSayHello();
+    </script>
 </body>
 </html>
